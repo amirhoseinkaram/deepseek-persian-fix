@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "DeepSeek Persian & Math Fix",
+  "version": "1.0",
+  "description": "فیکس نمایش فارسی + انگلیسی + ریاضی در DeepSeek",
+  "content_scripts": [
+    {
+      "matches": ["https://chat.deepseek.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ]
+}
