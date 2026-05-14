@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600&display=swap');
+
+.ds-markdown-paragraph,
+.ds-markdown-content,
+[class*="markdown"],
+.message-content {
+  font-family: 'Vazirmatn', system-ui, sans-serif !important;
+  direction: rtl !important;
+  text-align: right !important;
+  line-height: 1.75 !important;
+  font-size: 16px !important;
+  unicode-bidi: plaintext !important;   
+}
+
+
+.katex, .katex-display, code, pre {
+  direction: ltr !important;
+  text-align: left !important;
+  display: inline-block !important;
+  unicode-bidi: isolate !important;
+}
+
+
+bdi[dir="ltr"], span[dir="ltr"] {
+  direction: ltr !important;
+  unicode-bidi: isolate !important;
+}
